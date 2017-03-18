@@ -7,7 +7,7 @@ const path = require('path');
 
 const app = express();
 const directoryToServer = 'client';
-const port = 3000;
+const port = 8080;
 
 app.use('/', express.static(path.join(__dirname, '..', directoryToServer)));
 
